@@ -7,7 +7,8 @@
 <!--    <changeDefaultButton></changeDefaultButton>-->
 <!--    <globalSet></globalSet>-->
 <!--    <changeRules></changeRules>-->
-    <setSlot></setSlot>
+<!--    <setSlot></setSlot>-->
+    <componentsLink></componentsLink>
 <!--    <demo></demo>-->
   </div>
 </template>
@@ -21,7 +22,8 @@
 // import changeDefaultButton from "@/components/changeDefaultButton.vue";
 // import globalSet from "@/components/globalSet.vue";
 // import changeRules from "@/components/changeRules.vue";
-import setSlot from "@/components/setSlot.vue";
+// import setSlot from "@/components/setSlot.vue";
+import componentsLink from "@/components/componentsLink.vue";
 
 export default {
   name: 'App',
@@ -34,7 +36,8 @@ export default {
     // changeDefaultButton,
     // globalSet,
     // changeRules,
-    setSlot,
+    // setSlot,
+    componentsLink,
   }
 }
 </script>

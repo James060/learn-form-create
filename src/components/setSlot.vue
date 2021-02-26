@@ -33,6 +33,23 @@ export default {
             class: 'el-icon-check'
           }, '方式2'],
         },
+        {
+          type: 'input',
+          field: 'input',
+          title: '插槽',
+          children: [
+            {
+              type: 'i',
+              class: 'el-icon-check',
+              slot: 'prefix',
+            },
+            {
+              type: 'i',
+              class: 'el-icon-check',
+              slot: 'suffix',
+            },
+          ],
+        },
       ],
     };
   },
