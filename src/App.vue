@@ -1,7 +1,13 @@
 <template>
   <div id="app">
 <!--    <eventListen></eventListen>-->
-    <eventInject></eventInject>
+<!--    <eventInject></eventInject>-->
+<!--    <customLayout></customLayout>-->
+<!--    <validateRule></validateRule>-->
+<!--    <changeDefaultButton></changeDefaultButton>-->
+<!--    <globalSet></globalSet>-->
+<!--    <changeRules></changeRules>-->
+    <setSlot></setSlot>
 <!--    <demo></demo>-->
   </div>
 </template>
@@ -9,14 +15,26 @@
 <script>
 // import eventListen from '@/components/eventListen.vue';
 // import demo from "./components/demo.vue";
-import eventInject from "@/components/eventInject.vue";
+// import eventInject from "@/components/eventInject.vue";
+// import customLayout from "@/components/customLayout.vue";
+// import validateRule from "@/components/validateRule.vue";
+// import changeDefaultButton from "@/components/changeDefaultButton.vue";
+// import globalSet from "@/components/globalSet.vue";
+// import changeRules from "@/components/changeRules.vue";
+import setSlot from "@/components/setSlot.vue";
 
 export default {
   name: 'App',
   components: {
     // eventListen,
     // demo,
-    eventInject,
+    // eventInject,
+    // customLayout,
+    // validateRule,
+    // changeDefaultButton,
+    // globalSet,
+    // changeRules,
+    setSlot,
   }
 }
 </script>
