@@ -10,6 +10,7 @@
   "dependencies": {
     "@form-create/iview4": "^2.5.0-alpha.2",
     "core-js": "^3.6.5",
+    "element-ui": "^2.15.1",
     "iview": "^3.5.4",
     "vue": "^2.6.11"
   },

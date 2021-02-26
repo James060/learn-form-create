@@ -1,16 +1,22 @@
 <template>
   <div id="app">
-    <eventListen></eventListen>
+<!--    <eventListen></eventListen>-->
+    <eventInject></eventInject>
+<!--    <demo></demo>-->
   </div>
 </template>
 
 <script>
-import eventListen from '@/components/eventListen.vue';
+// import eventListen from '@/components/eventListen.vue';
+// import demo from "./components/demo.vue";
+import eventInject from "@/components/eventInject.vue";
 
 export default {
   name: 'App',
   components: {
-    eventListen,
+    // eventListen,
+    // demo,
+    eventInject,
   }
 }
 </script>
