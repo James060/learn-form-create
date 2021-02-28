@@ -8,7 +8,11 @@
 <!--    <globalSet></globalSet>-->
 <!--    <changeRules></changeRules>-->
 <!--    <setSlot></setSlot>-->
-    <componentsLink></componentsLink>
+<!--    <componentsLink></componentsLink>-->
+<!--    <updateCallback></updateCallback>-->
+<!--    <prefixAndSuffix></prefixAndSuffix>-->
+<!--    <customProperty></customProperty>-->
+    <formBinding></formBinding>
 <!--    <demo></demo>-->
   </div>
 </template>
@@ -23,7 +27,11 @@
 // import globalSet from "@/components/globalSet.vue";
 // import changeRules from "@/components/changeRules.vue";
 // import setSlot from "@/components/setSlot.vue";
-import componentsLink from "@/components/componentsLink.vue";
+// import componentsLink from "@/components/componentsLink.vue";
+// import updateCallback from "@/components/updateCallback.vue";
+// import prefixAndSuffix from "@/components/prefixAndSuffix.vue";
+// import customProperty from "@/components/customProperty.vue";
+import formBinding from '@/components/formBinding.vue';
 
 export default {
   name: 'App',
@@ -37,7 +45,11 @@ export default {
     // globalSet,
     // changeRules,
     // setSlot,
-    componentsLink,
+    // componentsLink,
+    // updateCallback,
+    // prefixAndSuffix,
+    // customProperty,
+    formBinding,
   }
 }
 </script>
