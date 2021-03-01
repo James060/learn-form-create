@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-<!--    <eventListen></eventListen>-->
+    <eventListen></eventListen>
 <!--    <eventInject></eventInject>-->
 <!--    <customLayout></customLayout>-->
 <!--    <validateRule></validateRule>-->
@@ -12,13 +12,14 @@
 <!--    <updateCallback></updateCallback>-->
 <!--    <prefixAndSuffix></prefixAndSuffix>-->
 <!--    <customProperty></customProperty>-->
-    <formBinding></formBinding>
+<!--    <formBinding></formBinding>-->
+<!--    <otherConfig></otherConfig>-->
 <!--    <demo></demo>-->
   </div>
 </template>
 
 <script>
-// import eventListen from '@/components/eventListen.vue';
+import eventListen from '@/components/eventListen.vue';
 // import demo from "./components/demo.vue";
 // import eventInject from "@/components/eventInject.vue";
 // import customLayout from "@/components/customLayout.vue";
@@ -31,12 +32,13 @@
 // import updateCallback from "@/components/updateCallback.vue";
 // import prefixAndSuffix from "@/components/prefixAndSuffix.vue";
 // import customProperty from "@/components/customProperty.vue";
-import formBinding from '@/components/formBinding.vue';
+// import formBinding from '@/components/formBinding.vue';
+// import otherConfig from "@/components/otherConfig.vue";
 
 export default {
   name: 'App',
   components: {
-    // eventListen,
+    eventListen,
     // demo,
     // eventInject,
     // customLayout,
@@ -49,7 +51,8 @@ export default {
     // updateCallback,
     // prefixAndSuffix,
     // customProperty,
-    formBinding,
+    // formBinding,
+    // otherConfig,
   }
 }
 </script>
